@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./style/Contact/Contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__left-block">
+        <a href="/index.html">
+          <img src="/images/logo.png" alt="" />
+        </a>
+        <ul class="ul__header">
+          <a href="./index.html"><li>Главная</li></a>
+          <a href="./About.html"><li>О нас</li></a>
+          <a href="./Contact.html"><li>Контакты</li></a>
+        </ul>
+      </div>
+
+      <ul class="ul__header">
+        <a href=""><li>Регистарция</li></a>
+        <a href=""><li>Логин</li></a>
+      </ul>
+
+      <div class="header__container-wrapper_but">
+        <img src="./images/Menu.svg" width="100%" />
+      </div>
+    </header>
+
+    <div
+      class="header__container-wrapper_modal"
+      style="transform: translate(0px, -100%); display: none">
+      <menu>
+        <ul class="wrapper_modal-list">
+          <li class="wrapper_modal-list_item">
+            <a href="./index.html" class="wrapper_modal-list_link">Главная</a>
+          </li>
+          <li class="wrapper_modal-list_item">
+            <a href="./About.html" class="wrapper_modal-list_link">О нас</a>
+          </li>
+          <li class="wrapper_modal-list_item">
+            <a href="./Contact.html" class="wrapper_modal-list_link"
+              >Контакты</a
+            >
+          </li>
+        </ul>
+      </menu>
+    </div>
+
+    <main class="main">
+      <section class="section0">
+        <div class="section1__container">
+          <div class="main__left-block">
+            <h1 class="main__left-block-h1">Связаться с нами</h1>
+            <button class="main__btn-category">Главная / Контакты</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section1">
+        <div class="section__container">
+          <div class="section__container-map">
+            <div class="map" id="map"></div>
+          </div>
+          <div class="section__container-Info">
+            <div class="section__container-Info_item">
+              <div class="section__container-Info_item-img">
+                <img src="./images/Office.svg" width="100%" />
+              </div>
+              <div class="section__container-Info_item-text">
+                <p class="Info_item-text_title">Office</p>
+                <p class="Info_item-text_desc">
+                  Куликова 42, Россия, Астрахань
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="section__container-Info_item section__container-Info_item2">
+              <div class="section__container-Info_item-img">
+                <img src="./images/Website.svg" width="100%" />
+              </div>
+              <div class="section__container-Info_item-text">
+                <p class="Info_item-text_title">Website</p>
+                <p class="Info_item-text_desc">https://murano.versel.app</p>
+              </div>
+            </div>
+
+            <div class="section__container-Info_item">
+              <div class="section__container-Info_item-img">
+                <img src="./images/Call.svg" width="100%" />
+              </div>
+              <div class="section__container-Info_item-text">
+                <p class="Info_item-text_title">Phone</p>
+                <p class="Info_item-text_desc">+7 901 224 12 43</p>
+              </div>
+            </div>
+
+            <div
+              class="section__container-Info_item section__container-Info_item2">
+              <div class="section__container-Info_item-img">
+                <img src="./images/Email.svg" width="100%" />
+              </div>
+              <div class="section__container-Info_item-text">
+                <p class="Info_item-text_title">Email</p>
+                <p class="Info_item-text_desc">info@murano.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section3__container">
+          <div class="section3__container-text">
+            <p>
+              Задумали проект? <br />
+              Давайте поговорим
+            </p>
+          </div>
+          <div class="section3__container-grid">
+            <form action="">
+              <div class="section3__container-grid_inp1">
+                <div class="section3__container-grid_inp1-item">
+                  <label for="">Полное имя</label>
+                  <input type="text" name="" id="" placeholder="Джек Лондон" />
+                </div>
+                <div class="section3__container-grid_inp1-item">
+                  <label for="">Email адрес</label>
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="info@murano.com" />
+                </div>
+              </div>
+              <div class="section3__container-grid_inp2">
+                <label for="">Сообщение</label>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Как мы можем вам помочь?" />
+              </div>
+              <div class="section3__container-grid_btn">
+                <button>Отправить сообщение</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer__list">
+        <div>
+          <img src="/images/logo.png" alt="" />
+        </div>
+
+        <div>
+          <ul class="footer__list-ul">
+            <a href=""><li>Компания</li></a>
+            <a href=""><li>О нас</li></a>
+            <a href=""><li>Блог</li></a>
+            <a href=""><li>Работа</li></a>
+            <a href=""><li>Контакты</li></a>
+          </ul>
+        </div>
+        <div>
+          <ul class="footer__list-ul">
+            <a href=""><li>Ресурсы</li></a>
+            <a href=""><li>Гид</li></a>
+            <a href=""><li>Как это работает</li></a>
+            <a href=""><li>Услуги</li></a>
+            <a href=""><li>Документы</li></a>
+          </ul>
+        </div>
+        <div class="footer__list-imgs">
+          <img src="/images/pngwing.png" alt="logo" />
+          <img src="/images/pngwing-1.png" alt="logo" />
+          <img src="/images/pngwing-2.png" alt="logo" />
+        </div>
+      </section>
+    </footer>
+    <section class="footer__bottom">
+      <div class="footer__bottom-section">
+        <p>Copyright © Мурано 2023</p>
+        <div>
+          <p>Условия Использования</p>
+          <p>Конфиденциальность</p>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
+      type="text/javascript"></script>
+    <script src="./HeaderMenu.js"></script>
+  </body>
+</html>
